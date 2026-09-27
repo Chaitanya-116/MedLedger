@@ -1,0 +1,56 @@
+# =========================
+# Node / Frontend
+# =========================
+client/node_modules/
+client/dist/
+
+# =========================
+# Python / Backend
+# =========================
+server/venv/
+server/.venv/
+server/__pycache__/
+server/**/__pycache__/
+server/**/*.pyc
+
+# =========================
+# Environment Variables
+# =========================
+# .env contains secrets — NEVER commit
+server/.env
+server/.env.*
+# .env.example is the safe template — ALWAYS commit
+!server/.env.example
+
+# =========================
+# SQLite Database
+# =========================
+server/*.db
+server/*.sqlite3
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Testing & Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
